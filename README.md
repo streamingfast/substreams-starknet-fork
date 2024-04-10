@@ -2,6 +2,14 @@
 
 Rust library for Starknet [substreams](https://substreams.streamingfast.io/) development.
 
+## Regenerate Protobuf Rust code
+
+Whenever the [Protobuf types definition](./proto/zklend.starknet.type.v1.proto) changes, run the following command to update the generated Rust code:
+
+```console
+cargo codegen
+```
+
 ## License
 
 Licensed under either of

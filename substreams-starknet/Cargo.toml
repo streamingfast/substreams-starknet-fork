@@ -11,4 +11,4 @@ description = "Rust library for Starknet substreams development"
 exclude = [".github/**"]
 
 [dependencies]
-prost = "0.11.9"
+prost = "0.13"
